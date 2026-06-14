@@ -5,13 +5,14 @@ import lk.chamasha.googleauth.controller.request.GoogleLoginRequest;
 import lk.chamasha.googleauth.model.Role;
 import lk.chamasha.googleauth.model.User;
 import lk.chamasha.googleauth.repository.UserRepository;
+import lk.chamasha.googleauth.security.JwtService;
 import lk.chamasha.googleauth.service.AuthService;
 
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.util.Optional;
+
 
 @Service
 @RequiredArgsConstructor
