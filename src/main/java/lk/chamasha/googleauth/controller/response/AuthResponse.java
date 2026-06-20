@@ -1,4 +1,4 @@
-package lk.chamasha.googleauth.controller.request;
+package lk.chamasha.googleauth.controller.response;
 
 import lombok.*;
 

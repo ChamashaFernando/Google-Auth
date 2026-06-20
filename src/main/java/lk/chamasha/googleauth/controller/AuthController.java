@@ -1,7 +1,7 @@
 package lk.chamasha.googleauth.controller;
 
-import lk.chamasha.googleauth.controller.request.AuthResponse;
 import lk.chamasha.googleauth.controller.request.GoogleLoginRequest;
+import lk.chamasha.googleauth.controller.response.AuthResponse;
 import lk.chamasha.googleauth.service.AuthService;
 
 import lombok.RequiredArgsConstructor;
